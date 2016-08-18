@@ -1,0 +1,50 @@
+body{
+background: aquamarine;
+align-content: center;
+margin-top: 50px;
+margin-left: 70px;
+
+}
+
+nav#menu{
+    display: block;
+}
+
+nav#menu ul{
+    list-style: none;
+    text-transform: uppercase;
+    position: absolute;
+    left: 10px;
+    top: -20px;
+
+}
+
+nav#menu li{
+
+    display: inline-block;
+    background: aliceblue;
+    padding: 6px;
+    margin: 6px;
+    transition: background-color 1s;
+}
+nav#menu li:hover{
+    background-color: cornflowerblue ;
+
+}
+
+
+nav#menu h1{
+    display: none;
+}
+
+nav#menu a{
+    text-decoration: none;
+    font: bolder;
+    font-style: oblique;
+
+}
+
+nav#menu a:hover{
+    color: antiquewhite;
+
+}
